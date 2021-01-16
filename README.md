@@ -5,6 +5,7 @@ Read or watch:
 * [Measure the size of the image](https://www.toptal.com/developers/css/sprite-generator/)
 * [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 * [“css slow underline a” Code Answer](https://www.codegrepper.com/code-examples/html/css+slow+underline+a)
+* [Create Pure CSS Toggle Switch ON OFF Examples](https://codeconvey.com/pure-css-toggle-switch-on-off-examples/)
 
 ---
 ## Learning Objectives:bulb:
