@@ -3,6 +3,7 @@
 ## Resources:books:
 Read or watch:
 * [Measure the size of the image](https://www.toptal.com/developers/css/sprite-generator/)
+* [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 
 ---
 ## Learning Objectives:bulb:
