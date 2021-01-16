@@ -1,0 +1,71 @@
+.toggle {
+  position: relative; 
+  width: 90px;
+}
+.toggle-cb {
+  display: none;
+}
+.toggle-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #d5d0d0;
+  border-radius: 50px;
+  height: 30px;
+}
+
+.toggle-inner {
+  width: 200%; 
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.toggle-inner:before, 
+.toggle-inner:after {
+  float: left; 
+  width: 50%; 
+  height: 35px; 
+  line-height: 35px;
+  font-size: 15px; 
+  color: white; 
+  font-family: Trebuchet, Arial, sans-serif; 
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-bottom: 40px;
+  line-height: 30px;
+}
+.toggle-inner:before {
+  content: "Yes";
+  padding-left: 12px;
+  background-color: #E1003C; 
+  color: white;
+}
+.toggle-inner:after {
+  content: "No";
+  padding-right: 12px;
+  background-color: #EBEBEB;
+  color: #c9c8c8;
+  text-align: right;
+}
+
+.toggle-switch {
+  width: 35px;
+  height: 35px;
+  margin: -2px;
+  background: #FFFFFF;
+  position: absolute; 
+  top: 0; 
+  bottom: 0;
+  border: 1px solid #d5d0d0; 
+  border-radius: 50px;
+  transition: all 0.3s ease-in 0s;
+}
+.toggle-cb:checked + .toggle-label .toggle-inner {
+  margin-left: 0;
+}
+.toggle-cb:checked + .toggle-label .toggle-switch {
+  right: 0px; 
+}
+
+
